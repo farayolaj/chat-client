@@ -1,0 +1,35 @@
+.loginForm {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.loginHeader {
+  display: block;
+  align-self: flex-start;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.loginForm form {
+  width: 70%;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  margin: 12px 0px;
+}
+
+.formGroup span {
+  font-size: smaller;
+}
+
+.formGroup input {
+  border: 0;
+  border-bottom: 1px solid var(--highlight);
+}

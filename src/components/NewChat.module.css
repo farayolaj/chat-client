@@ -1,0 +1,45 @@
+.overlay {
+  display: flex;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(121, 109, 109, 0.4);
+}
+
+.modal {
+  background-color: white;
+  min-width: 80%;
+  /* min-height: 40%; */
+  padding: 10px;
+  border-radius: 5vw;
+}
+
+.modalHeader {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.modalHeader input {
+  width: auto;
+  padding: 3px;
+  border: 1px solid var(--highlight);
+  border-radius: 3vw;
+}
+
+.closeButton {
+  font-size: 2em;
+}
+
+.results {
+  border: 1px solid var(--highlight);
+  padding: 5px;
+  border-radius: 3vw;
+  overflow-y: scroll;
+  min-height: 20vh;
+  max-height: 50vh;
+}

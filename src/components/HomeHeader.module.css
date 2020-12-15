@@ -1,0 +1,66 @@
+.header {
+  background-color: white;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px -8px 20px var(--highlight);
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header span {
+  font-size: 1.7em;
+  font-weight: bolder;
+}
+.menu {
+  justify-self: center;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.menu > svg:hover {
+  border-radius: 100px;
+  background-color: var(--highlight);
+  color: white;
+}
+
+.searchBox {
+  display: inline-flex;
+  border: 1px solid var(--highlight);
+  border-radius: 100px;
+}
+
+.searchBox input {
+  width: 90%;
+  border: 0;
+  padding: 3px;
+  border-radius: 100px 0 0 100px;
+  font-size: 1.2rem;
+}
+
+.searchBox svg:hover {
+  border-radius: 0 100px 100px 0;
+  background-color: var(--highlight);
+  color: white;
+}
+
+.expand-enter input {
+  width: 0px;
+}
+
+.expand-enter-active input {
+  width: initial;
+  transition: all linear 200ms;
+}
+
+.expand-exit input {
+  width: initial;
+}
+
+.expand-exit-active input {
+  width: 0px;
+  transition: all linear 200ms;
+}

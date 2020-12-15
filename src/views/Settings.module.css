@@ -1,0 +1,36 @@
+.settings {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.settingsMain {
+  padding: 12px;
+  overflow-y: scroll;
+}
+
+.accountHeading {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  column-gap: 5px;
+}
+
+.actions {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.displayname {
+  margin: 10px;
+}
+
+.username {
+  margin: 0px 0px 20px 2px;
+}

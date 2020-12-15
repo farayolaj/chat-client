@@ -1,0 +1,1 @@
+export const HIGHLIGHT_COLOUR = '#39049c';

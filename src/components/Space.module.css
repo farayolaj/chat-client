@@ -1,0 +1,32 @@
+.space {
+  box-sizing: border-box;
+  width: 100%;
+  height: fit-content;
+  padding: 12px;
+  row-gap: 3px;
+  box-shadow: 8vw 0px 1px var(--highlight);
+  text-decoration: none;
+}
+
+.space .name {
+  display: block;
+  font-size: 1em;
+  text-overflow: ellipsis;
+}
+
+.space .overview {
+  font-size: 0.86em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.space .message {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-indent: 4vw;
+}
+
+.space.bold {
+  font-weight: bold;
+}
